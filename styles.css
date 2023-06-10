@@ -1,0 +1,5 @@
+body { font-family: Arial, sans-serif; }
+input[type="text"], input[type="date"], input[type="submit"] { display:inline-block; margin-bottom: 10px; }
+#sidebar { width: 200px; float: left; background-color: #f2f2f2; padding: 10px; }
+#transactionsTable { width: calc(100% - 220px); float: right; }
+#transactionTable th, #transactionTable td { padding: 5px; }

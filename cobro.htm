@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="sidebar">
+    <h3>Historial</h3>
+    <input id="searchInput" type="text" placeholder="Buscar..." oninput="filtrarRegistros()">
+    <table id="transactionTable">
+      <thead>
+        <tr>
+          <th>Fecha</th>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Producto</th>
+          <th>Teléfono</th>
+        </tr>
+      </thead>
+      <tbody id="transactionBody"></tbody>
+    </table>
+  </div>
+  <div id="transactionsTable">
+    <h2>Sistema de Cobro</h2>
+    <input id="nombre" type="text" placeholder="Nombre">
+    <input id="apellido" type="text" placeholder="Apellido">
+    <input id="producto" type="text" placeholder="Producto">
+    <input id="fechaCobro" type="date">
+    <input id="telefono" type="text" placeholder="Teléfono">
+    <input type="submit" value="Guardar" onclick="guardarCobro()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
